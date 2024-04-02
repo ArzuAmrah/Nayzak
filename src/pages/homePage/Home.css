@@ -1,0 +1,722 @@
+.characters {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.side {
+    width: 300px;
+    border: 2px solid gray;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-right: 30px;
+    transition: 0.7s;
+}
+
+.side:hover {
+    box-shadow: 1px 5px 10px 0px rgb(70, 68, 68);
+}
+
+.data-side {
+    margin-top: 50px;
+    margin-left: 75px;
+    height: 100px;
+}
+
+.forward-shop-side {
+    width: 100%;
+    height: 734px;
+    padding: 52px;
+    gap: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forward-all {
+    width: 1336px;
+    height: 600px;
+    gap: 32px;
+    display: flex;
+}
+
+.shop-ear {
+    width: 652px;
+    height: 630px;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.earings {
+    width: 652px;
+    height: 38px;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 38px;
+    text-align: center;
+}
+
+.forward-link {
+    width: 150px;
+    height: 82px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.forward-link span {
+    width: 120px;
+    height: 38px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    /* border-bottom:1px solid black ; */
+}
+
+.forward-link i {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.earphoto {
+    width: 652px;
+    height: 542px;
+}
+
+.earphoto img {
+    width: 652px;
+    height: 542px;
+}
+
+.join {
+    width: 100%;
+    height: 438px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 52px;
+    gap: 10px;
+}
+
+.join-main {
+    width: 100%;
+    height: 334px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.add-email {
+    width: 488px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-join {
+    display: inline;
+    margin-left: 3px;
+    /* border-bottom: 1px solid black; */
+    border: none;
+}
+
+.add-email-join {
+    width: 540px;
+    height: 53px;
+    outline: none;
+    border-bottom: 1px solid black;
+    gap: 8px;
+    /* padding-bottom: 50px; */
+
+}
+
+.email-join {
+    border: none;
+}
+
+.join-title {
+    width: 456px;
+    height: 44px;
+    font-weight: 500;
+    line-height: 54px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.join-text {
+    font-weight: 400;
+    width: 540px;
+    height: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+
+.rings {
+    width: 100%;
+    /* height: max-content; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+/* .rings-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.rings__title {
+    width: 1336px;
+    height: 70px;
+    font-size: 34px;
+}
+
+/* .swiper-button-next{
+} */
+.ring__image {
+    width: 310px;
+    height: 413px;
+}
+
+.ring__image img {
+    width: 310px;
+    height: 413px;
+}
+
+.ring {
+    width: max-content;
+    height: max-content;
+}
+
+.rings__main {
+    width: 990px;
+    gap: 16px;
+    display: flex;
+}
+
+#title {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.prices {
+    margin-top: 10px;
+}
+
+.new__price {
+    font-size: 14px;
+}
+
+.last__price {
+    margin-left: 10px;
+    text-decoration: line-through;
+    color: #A7A7A7;
+    font-size: 14px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    font-family: SwiperIcons;
+    font-size: 22px;
+    line-height: 1;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+    pointer-events: none;
+}
+
+.swiper-button-prev {
+    left: 10px;
+}
+
+.swiper-button-next {
+    right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.discount {
+    width: 100%;
+    height: 704px;
+    padding: 52px;
+    /* gap: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount-left {
+    width: 684px;
+    height: 600px;
+}
+
+.counter {
+    width: 313px;
+    height: 38px;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 38px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.discount-right {
+    width: 652px;
+    height: 600px;
+    background-color: #fafafb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.discount-shop {
+    width: 136px;
+    height: 58px;
+    /* padding: 10px, 26px, 10px, 26px; */
+    border-radius: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount-left-photo {
+    width: 684px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.discount-shop {
+    background-color: black;
+    border: none;
+}
+
+.discount-shop a {
+    color: white;
+    font-size: 18px;
+}
+
+.discount-name {
+    width: 456px;
+    height: 26px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.discount-percent {
+    width: 456px;
+    height: 58px;
+    font-size: 54px;
+    line-height: 58px;
+    font-weight: 500;
+}
+
+.discount-text {
+    width: 456px;
+    height: 60px;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+@media screen and (min-width: 480px) and (max-width:767px) {
+    .forward-shop-side {
+        width: 100%;
+        height: 900px;
+        padding: 52px;
+        gap: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .forward-all {
+        width: max-content;
+        height: 600px;
+        gap: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .shop-ear {
+        width: 250px;
+        height: max-content;
+        gap: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .earings {
+        width: max-content;
+        height: 38px;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 38px;
+        text-align: center;
+    }
+
+    .forward-link {
+        width: 150px;
+        height: 40px;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 32px;
+        text-align: center;
+        border-bottom: 1px solid black;
+    }
+
+    .earphoto {
+        width: 325px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .earphoto img {
+        width: 325px;
+        height: 350px;
+    }
+
+
+
+    .join-main {
+        width: 100%;
+        height: 334px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+    }
+
+
+
+    .email-join {
+        width: max-content;
+        display: inline;
+        margin-left: 3px;
+        border-bottom: 1px solid black;
+    }
+
+    .add-email-join {
+        width: max-content;
+        height: 53px;
+        outline: none;
+        border-bottom: 1px solid black;
+        gap: 8px;
+        /* padding-bottom: 150px; */
+
+    }
+
+    .join-text {
+        width: max-content;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .discount {
+        width: 100%;
+        height: max-content;
+        padding: 0px;
+        /* gap: 10px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .discount-left {
+        width: 340px;
+        height: 300px;
+    }
+
+    .counter {
+        width: 313px;
+        height: 38px;
+        font-size: 34px;
+        font-weight: 600;
+        line-height: 38px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .discount-right {
+        width: 340px;
+        height: 300px;
+        background-color: #fafafb;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .discount-left-photo {
+        width: 340px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .discount-shop {
+        background-color: black;
+        border: none;
+        width: 100px;
+        height: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .discount-shop a {
+        color: white;
+        font-size: 12px;
+    }
+
+    .discount-name {
+        width: 230px;
+        height: 26px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .discount-percent {
+        width: 230px;
+        height: 60px;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .discount-text {
+        width: 230px;
+        height: 60px;
+        font-weight: 400;
+        line-height: 15px;
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (min-width: 767px) and (max-width:991px) {
+    .forward-all {
+        width: max-content;
+        height: max-content;
+        gap: 32px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .forward-link {
+        height: max-content;
+
+    }
+
+    .forward-shop-side {
+        height: max-content;
+        padding: 52px;
+        gap: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .earphoto img {
+        width: 652px;
+        height: 542px;
+    }
+
+    .earphoto {
+        width: 652px;
+        height: 542px;
+    }
+
+    .shop-ear {
+        width: max-content;
+        height: max-content;
+        gap: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .discount {
+        width: 100%;
+        padding: 0px 0px;
+        height: max-content;
+        display: flex;
+        justify-content: center;
+    }
+
+    .discount-right {
+        width: 390px;
+        height: 500px;
+    }
+
+    .discount-left-photo {
+        width: 384px;
+        height: 500px;
+    }
+
+    .discount-left {
+        width: 380px;
+        height: 500px;
+    }
+
+    .discount-right-text {
+        width: 350px;
+    }
+
+    .discount-percent {
+        width: max-content;
+        font-size: 45px;
+    }
+
+    .discount-name {
+        width: max-content;
+    }
+
+    .discount-text {
+        width: 350px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width:1400px) {
+
+    .forward-all {
+        width: max-content;
+        height: max-content;
+        gap: 10px;
+        display: flex;
+    }
+
+    .forward-link {
+        height: max-content;
+
+    }
+
+    .forward-shop-side {
+        height: max-content;
+        padding: 52px;
+        gap: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .earphoto img {
+        width: 490px;
+        height: 542px;
+    }
+
+    .earphoto {
+        width: max-content;
+        height: 542px;
+    }
+
+    .shop-ear {
+        width: 490px;
+        height: max-content;
+        gap: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .earings {
+        width: max-content;
+    }
+
+    .discount {
+        width: 100%;
+        padding: 0px 0px;
+        height: max-content;
+        display: flex;
+        justify-content: center;
+    }
+
+    .discount-right {
+        width: 390px;
+        height: 500px;
+    }
+
+    .discount-left-photo {
+        width: 384px;
+        height: 500px;
+    }
+
+    .discount-left {
+        width: 380px;
+        height: 500px;
+    }
+
+    .discount-right-text {
+        width: 350px;
+    }
+
+    .discount-percent {
+        width: max-content;
+        font-size: 45px;
+    }
+
+    .discount-name {
+        width: max-content;
+    }
+
+    .discount-text {
+        width: 350px;
+        margin-bottom: 50px;
+    }
+}

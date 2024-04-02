@@ -1,0 +1,549 @@
+.account-container {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.account-datas {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.account-menu {
+  width: 200px;
+  height: 440px;
+  display: block;
+}
+
+.dashboard-content,
+.orders-content,
+.addresses-content,
+.account-details-content,
+.wishlist-content {
+  display: none;
+
+}
+
+.account-details-content {
+  height: max-content;
+  /* margin-top: 50px;
+  margin-bottom: 50px; */
+}
+
+.account-details-form {
+  width: max-content;
+  height: max-content;
+}
+
+.dashboard-content h2,
+.orders-content h2,
+.addresses-content h2,
+.account-details-content h2,
+.wishlist-content h2 {
+  /* border-bottom: 2px solid #333; */
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.account-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.account-menu li {
+  cursor: pointer;
+  padding: 10px;
+  /* background-color: #f0f0f0; */
+  /* border-bottom:1px solid black ; */
+  margin-bottom: 5px;
+}
+
+/* .account-menu li:hover {
+  background-color: #e0e0e0;
+} */
+
+.account-menu li.active {
+  border-bottom: 2px solid #333;
+  font-weight: bold;
+}
+
+.account-content {
+  padding: 20px;
+  width: 880px;
+  padding-left: 60px;
+}
+
+.dashboard-content,
+.orders-content,
+.addresses-content,
+.account-details-content,
+.wishlist-content {
+  display: none;
+}
+
+.dashboard-content.show,
+.orders-content.show,
+.addresses-content.show,
+.account-details-content.show,
+.wishlist-content.show {
+  display: block;
+}
+
+.account-title {
+  width: 100%;
+  height: 58px;
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 58px;
+  text-align: center;
+}
+
+.dashboard-content {
+  width: 880px;
+  height: 120px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.dashboard-content h2 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.addresses-all-data {
+  width: 880px;
+  height: 480px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.address-data {
+  width: 424px;
+  height: 224px;
+  border: 1px solid #CBCBCB;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.left-margin {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.address-name {
+  width: 290px;
+  height: 30px;
+  /* gap: 32px; */
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  border: none;
+  margin-left: 20px;
+  display: inline;
+}
+
+.address-details {
+  width: 360px;
+  height: 120px;
+  gap: 32px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-left: 20px;
+}
+
+.address-edit-side {
+  width: 360px;
+  height: max-content;
+  display: flex;
+}
+
+.pen {
+  margin-right: 7px;
+}
+
+
+.account-top-input {
+  width: 652px;
+  height: max-content;
+  margin-bottom: 30px;
+  gap: 24px;
+}
+
+.account-down-input {
+  width: 653px;
+  height: 368px;
+  gap: 24px;
+  /* padding-bottom: 90px; */
+}
+
+.input-side {
+  width: 652px;
+  height: 86px;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  /* margin-bottom: 15px; */
+}
+
+.password-title {
+  width: 155px;
+  height: 30px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 20px 0px;
+}
+
+.account-label {
+  font-weight: 600;
+  width: 652px;
+  height: 26px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #3E3E59;
+}
+
+.account-input {
+  width: 652px;
+  height: 52px;
+  border: 1px solid #cbcbcb;
+  border-radius: 6px;
+  padding: 0px, 16px, 0px, 16px;
+  gap: 8px;
+}
+
+.order-data-side {
+  width: 880px;
+  height: 72px;
+  padding: 16px, 0px, 16px, 0px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #CBCBCB;
+  align-items: center;
+}
+
+.id-side {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.id-side-data {
+  width: max-content;
+  height: max-content;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.id-side-button {
+  width: 77px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.account-data-li li {
+  font-size: 18px;
+  line-height: 32px;
+  color: #605F5F;
+}
+
+.account-data-li a {
+  font-size: 18px;
+  line-height: 32px;
+  color: #605F5F;
+  font-weight: 500 !important;
+}
+
+@media screen and (min-width: 480px) and (max-width:767px) {
+  .account-datas {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+  }
+
+  .account-menu {
+    width: 450px;
+    height: max-content;
+    display: flex;
+  }
+  .account-data-li{
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .account-img{
+    width: max-content;
+    height: max-content;
+  }
+  .account-img{
+    width: max-content;
+  }
+  .account-data-li li {
+    width: max-content !important;
+  }
+
+  .account-content {
+    padding: 0px;
+    width: max-content;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+    margin-top: 40px;
+  }
+
+  .dashboard-data {
+    width: 450px;
+  }
+
+  .dashboard-content h2 {
+    width: 450px !important;
+  }
+
+  .dashboard-content.show {
+    width: max-content;
+  }
+
+  .addresses-all-data {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: unset;
+  }
+
+  .left-margin {
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+
+  .address-data {
+    margin-bottom: 20px;
+  }
+
+  .account-top-input {
+    width: max-content;
+    height: max-content;
+    margin-bottom: 30px;
+    gap: 24px;
+  }
+
+  .input-side {
+    width: 450px;
+    height: 86px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .account-label {
+    width: 450px !important;
+    font-weight: 600;
+    width: 652px;
+    height: 26px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #3E3E59;
+  }
+.edit-side{
+  display: flex;
+  width: 150px;
+}
+  .account-input {
+    width: 470px !important;
+    height: 52px;
+    border: 1px solid #cbcbcb;
+    border-radius: 6px;
+    padding: 0px, 16px, 0px, 16px;
+    gap: 8px;
+  }
+
+  .addresses-content h2 {
+    width: 450px !important;
+  }
+
+  .account-details-content.show {
+    width: max-content !important;
+  }
+
+  .account-down-input {
+    width: max-content;
+    height: max-content;
+    gap: 0px;
+  }
+  .order-data-side {
+    width: 470px;
+}
+}
+@media screen and (min-width: 767px) and (max-width:991px) {
+  .account-datas {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .account-menu {
+    width: 700px;
+    height: max-content;
+    display: flex;
+  }
+  .account-data-li{
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .account-data-li li {
+    width: max-content !important;
+  }
+
+  .account-content {
+    padding: 0px;
+    width: max-content;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+    margin-top: 40px;
+  }
+
+  .dashboard-data {
+    width: 600px;
+  }
+
+  .dashboard-content h2 {
+    width: 450px !important;
+  }
+
+  .dashboard-content.show {
+    width: max-content;
+  }
+
+  .addresses-all-data {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: unset;
+  }
+
+  .left-margin {
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+
+  .address-data {
+    margin-bottom: 20px;
+  }
+
+  .account-top-input {
+    width: max-content;
+    height: max-content;
+    margin-bottom: 30px;
+    gap: 24px;
+  }
+
+  .input-side {
+    width: 750px;
+    height: 86px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .account-label {
+    width: 750px !important;
+    font-weight: 600;
+    width: 652px;
+    height: 26px;
+  }
+.edit-side{
+  display: flex;
+  width: 150px;
+}
+  .account-input {
+    width: 750px !important;
+    padding: 0px, 16px, 0px, 16px;
+    gap: 8px;
+  }
+  .account-details-content.show {
+    width: max-content !important;
+  }
+  .account-down-input {
+    width: max-content;
+    height: max-content;
+    gap: 0px;
+  }
+  .order-data-side {
+    width: 700px;
+}
+}
+@media screen and (min-width: 991px) and (max-width:1400px) {
+  .account-datas {
+    height: max-content;
+    display: flex;
+    justify-content: center;
+  }
+
+  .account-menu {
+    width: max-content;
+    height: max-content;
+    margin-right: 50px;
+  }
+  .account-data-li{
+    width: max-content;
+    height: max-content;
+  }
+  .account-data-li li {
+    width: max-content !important;
+  }
+
+.edit-side{
+  display: flex;
+  width: 150px;
+}
+.account-content {
+  padding: 20px;
+  width: 880px;
+  padding-left: 0px;
+}
+  .account-details-content.show {
+    width: max-content !important;
+  }
+
+.dashboard-content {
+  width: 750px;
+  height: max-content;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  padding-right: 0px;
+}
+}

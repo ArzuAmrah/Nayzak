@@ -1,0 +1,24 @@
+.product-inorder-pht{
+    width: 180px;
+    height: 134px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.order-product-detail{
+    width: 180px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+}
+.order-add-product{
+    width: 200px;
+    height: max-content;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.order-data-photo{
+    width: 77px;
+    height: 102px;
+}

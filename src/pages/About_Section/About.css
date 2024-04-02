@@ -1,0 +1,607 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-top {
+    width: 100%;
+    height: 550px;
+    background-image: url(../../assets/svg/girl.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-text {
+    width: 880px;
+    height: 116px;
+    color: white;
+    font-size: 54px;
+    line-height: 58px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.second-about {
+    width: 100%;
+    height: 504px;
+    gap: 10px;
+    padding: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-right {
+    width: 652px;
+    height: 400px;
+}
+
+.paste-pht {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-head,
+.about-text,
+.about-data,
+.see {
+    width: 570px;
+}
+
+.about-head {
+    height: 26px;
+    font-size: 25px;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+.about-text {
+    height: 88px;
+    line-height: 44px;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.about-data {
+    height: 90px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #3E3E59;
+    margin-bottom: 15px;
+}
+
+.see {
+    height: 32px;
+    font-size: 18px;
+    line-height: 32px;
+    color: black;
+    font-weight: 600;
+}
+
+.about-third {
+    width: 100%;
+    height: 428px;
+    padding: 52px;
+    gap: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brands-side {
+    width: 1336px;
+    height: 324px;
+    padding: 70px 52px;
+    gap: 63px;
+    background-color: #FAFAFB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-head {
+    width: 537px;
+    height: 44px;
+    font-size: 40px;
+    line-height: 44px;
+    margin-bottom: 15px;
+}
+
+.brands-right {
+    width: 632px;
+    height: 184px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logos-pht {
+    width: 160px;
+    height: 80px;
+}
+
+.brand-data {
+    width: 440px;
+    height: 60px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 40px;
+    color: #3E3E59;
+}
+
+.line {
+    width: 125px;
+    height: 1px;
+    background-color: black;
+}
+
+.fourth-left {
+    width: 570px;
+    min-height: 236px;
+    gap: 24px;
+    margin-left: 60px;
+}
+
+.shipping-side {
+    width: 100%;
+    height: 239px;
+    padding: 52px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.abt-icon {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 10px;
+}
+
+.icon_title {
+    height: max-content;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.title-text {
+    font-size: 14px;
+    line-height: 22px;
+    color: #807E7E;
+}
+
+.about-left {
+    width: max-content;
+    height: 292px;
+    gap: 24px;
+}
+
+.about-shipping-side {
+    width: 168px;
+    height: 145px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #e0d8d8;
+    padding-right: 50px;
+}
+
+.line-gray {
+    width: 1px;
+    height: 100px;
+    color: #EAEAEA;
+    display: none;
+}
+
+.swiper-side {
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-heading {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.swiper-heading-top {
+    width: 652px;
+    height: 88px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 44px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    gap: 8px;
+    font-weight: 600;
+}
+
+.swiper-heading-top-text {
+    width: 540px;
+    height: 52px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #3E3E59;
+    margin-bottom: 30px;
+}
+
+.slider_main {
+    /* width: 424px; */
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2),
+        -4px -4px 8px 0 rgba(255, 255, 255, 0.7);
+    border-radius: 7px;
+    margin: 30px 0px;
+}
+
+.slider_name {
+    width: 268px;
+    height: 32px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+.reviewBoy {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.slider_review {
+    width: 344px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+}
+
+@media screen and (min-width: 480px) and (max-width:767px) {
+
+    .img-text {
+        width: max-content;
+        height: max-content;
+        font-size: 38px;
+        line-height: 48px;
+    }
+
+    .second-about {
+        width: 100%;
+        height: max-content;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 0px;
+        padding: 30px;
+    }
+
+    .about-right,
+    .paste-pht {
+        width: 400px;
+        height: 400px;
+        margin-top: 0px;
+    }
+
+    .about-head,
+    .about-text,
+    .about-data,
+    .see {
+        width: max-content;
+    }
+
+    .about-head {
+        height: 26px;
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 15px;
+    }
+
+    .about-text {
+        width: 400px !important;
+        height: max-content;
+        line-height: 44px;
+        font-size: 35px;
+        margin-bottom: 15px;
+        margin-top: 0px;
+    }
+
+    .about-left {
+        width: 370px;
+        height: 292px;
+        gap: 24px;
+
+    }
+
+    .about-data {
+        width: 350px !important;
+        height: max-content;
+        margin-bottom: 15px;
+    }
+
+    .about-third {
+        width: max-content;
+        height: max-content;
+        padding: 52px;
+        gap: 10px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+    }
+
+    .brands-side {
+        width: max-content;
+        height: max-content;
+        padding: 0px 0px;
+        gap: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .brand-left {
+        width: 350px;
+        height: 250px;
+        padding: 20px;
+    }
+
+    .brand-head {
+        width: 350px;
+    }
+
+    .brands-right {
+        width: max-content;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .brand-data {
+        width: 350px;
+        height: 70px;
+    }
+
+
+    .line {
+        width: 125px;
+        height: 1px;
+        background-color: black;
+    }
+
+    .fourth-left {
+        width: max-content;
+        height: max-content;
+        gap: 24px;
+        margin-left: 0px;
+        margin-top: 60px;
+    }
+
+    .shipping-side {
+        width: 100%;
+        height: max-content;
+        padding: 52px;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .abt-icon {
+        width: 32px;
+        height: 32px;
+        margin-bottom: 10px;
+    }
+
+    .icon_title {
+        height: 32px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .title-text {
+        font-size: 14px;
+        line-height: 22px;
+        color: #807E7E;
+    }
+
+    .about-shipping-side {
+        width: 100%;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: none;
+    }
+
+    .line-gray {
+        width: 1px;
+        height: 100px;
+        color: #EAEAEA;
+        display: none;
+    }
+
+    .swiper-side {
+        width: 100%;
+        height: 320px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swiper-heading {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .swiper-heading-top {
+        width: 450px;
+        height: 88px;
+        font-size: 32px;
+    }
+
+    .swiper-heading-top-text {
+        width: 300px;
+        height: 52px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .slider_main {
+        width: 150px;
+        height: 282px;
+        padding: 30px 0px;
+        text-align: justify;
+    }
+    .slider_review {
+        width: 89px;
+        height: max-content;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 13px;
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:991px) {
+    .second-about {
+        width: 100%;
+        padding: 20px;
+        gap: 0px;
+    }
+
+    .about-left {
+        width: max-content;
+        margin-right: 20px;
+    }
+
+    .about-head {
+        width: max-content;
+        height: max-content;
+    }
+
+    .about-text {
+        width: 350px;
+        font-size: 30px;
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+
+    .about-data {
+        width: 340px;
+        height: max-content;
+        text-align: justify;
+        margin-right: 0px;
+    }
+
+    .about-right {
+        width: 400px;
+        height: max-content;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .paste-pht {
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .about-third {
+        width: 100%;
+    }
+
+    .brands-side {
+        width: max-content;
+    }
+
+    .brand-head {
+        width: max-content;
+    }
+
+    .brand-data {
+        width: 350px;
+    }
+
+    .brands-right {
+        width: 180px;
+    }
+
+    .logos-pht {
+        width: 90px;
+    }
+    .slider_review {
+        width: 190px;
+        height: max-content;
+        text-align: justify;
+    }
+}
+@media screen and (min-width: 991px) and (max-width:1400px) {
+
+    .brands-side {
+        width: max-content;
+        height: max-content;
+        padding: 30px 0px;
+        gap: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .brand-left {
+        width: 350px;
+        height: 250px;
+        padding: 20px;
+    }
+
+    .brand-head {
+        width: 350px;
+    }
+
+    .brands-right {
+        width: 600px;
+    }
+
+    .brand-data {
+        width: 350px;
+        height: 70px;
+    }
+}

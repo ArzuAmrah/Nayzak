@@ -1,0 +1,55 @@
+.thanks{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #696969;
+}
+.thank-side{
+    width: 652px;
+    height: 228px;
+    background-color: white;
+    padding: 32px;
+}
+.icon-side{
+    width: 588px;
+    height: 38px;
+    font-size: 34px;
+}
+.thank-review{
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 10px;
+}
+.text-thank{
+    width: 588px;
+    height: 38px;
+    gap: 12px;
+}
+.button-side{
+    width: 588px;
+    display: flex;
+    justify-content: flex-end;
+}
+button{
+    width: 98px;
+    height: 52px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    font-size: 18px;
+    line-height: 32px;
+}
+.circle{
+width: max-content;
+height: max-content;
+padding-right: 7px;
+gap: 12px;
+}
+
+.circle-main{
+width: 36px;
+height: 36px;
+gap: 12px;
+}

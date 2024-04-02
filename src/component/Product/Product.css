@@ -1,0 +1,125 @@
+.product-photo img {
+    width: 310px;
+    height: 413px;
+}
+
+.product-photo {
+    width: 310px;
+    height: 413px;
+    margin-top: 50px;
+}
+
+.product-stars {
+    width: 88px;
+    height: 16px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.product-name {
+    width: 310px;
+    height: 28px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+/* .product-prices {
+    width: 115px;
+    height: 22px;
+    gap: 12px;
+    margin-top: 7px;
+    display: flex;
+    flex-direction: column;
+} */
+
+.current-price {
+    width: 50px;
+    height: 22px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+}
+.star-icon-main{
+    width: 88px !important;
+    height: 16px !important;
+    margin-top: 8px;
+}
+.star-icon-main img{
+    width: 88px !important;
+    height: 16px !important;
+}
+.last-price {
+    width: 54px;
+    height: 22px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #A7A7A7;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.product-data-all {
+    width: max-content;
+    height: max-content;
+    /* margin-right: 7px;
+    margin-bottom: 50px; */
+    border: 1px solid white;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.product-data-all a {
+    width: max-content;
+    height:max-content;
+    /* border: 1px solid black; */
+    border-radius: 16px;
+    /* gap: 50px; */
+    /* padding: 20px; */
+   
+}
+
+.single-product{
+    width: 310px;
+    height: max-content;
+    padding-bottom: 30px;
+    margin: 20px;
+}
+.single-product img{
+    width: 310px;
+    height: 499px;
+    object-fit: cover;
+}
+.product-details p{
+width: 310px;
+height: max-content;
+font-weight: 600;
+line-height: 28px;
+font-size: 16px;
+}
+.product-prices{
+    width: 100px;
+    height: max-content;
+    display: flex;
+}
+.current-price, .last-price{
+    width: 49px;
+    height: 22px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+}
+.last-price{
+    color: #A7A7A7;
+}
+
+@media screen and (min-width: 480px) and (max-width:767px) {
+    .single-product{
+        margin: 0px;
+    }
+   
+}

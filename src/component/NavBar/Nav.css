@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: black;
+}
+
+.navbar {
+    width: 100%;
+    height: 68px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.navbar-main-link {
+    width: 570px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail {
+    width: 150px;
+    height: 28px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.detail-icon {
+    width: 30px;
+    height: 28px;
+}
+
+a {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cart {
+    display: flex;
+}
+
+.cart-count {
+    background-color: black;
+    color: white;
+    width: 15px;
+    height:15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-left: 5px;
+    font-size: 11px;
+}
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    position: relative; /* Burger menünün pozisyonunu ayarla */
+    z-index: 1; /* Diğer içeriklerin üzerine çıkacak şekilde z-index değeri */
+}
+
+.menu-toggle i {
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.navbar-main-link ul {
+    width: 570px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-main-link ul li {
+    padding: 0 10px;
+}
+
+@media screen and (min-width: 480px) and (max-width:767px) {
+    .navbar-main-link ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 68px;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 0;
+        z-index: 0; /* Diğer içeriklerin altında kalacak şekilde z-index değeri */
+    }
+
+    .navbar-main-link.active ul {
+        display: flex;
+        z-index: 999; /* Burger menü açıkken diğer içeriklerin üzerinde kalacak şekilde z-index değeri */
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
+@media screen and (min-width: 767px) and (max-width:991px) {
+    .navbar-main-link ul {
+        width: max-content;
+        padding: 0px 20px;
+    }
+    .navbar-main-link {
+        width: max-content;
+    }
+}
+@media screen and (min-width: 991px) and (max-width:1400px) {
+    .navbar {
+        width: 100%;
+        align-items: center;
+    }
+    .navbar-main-link ul {
+        margin-left: 20px;
+    }
+
+}

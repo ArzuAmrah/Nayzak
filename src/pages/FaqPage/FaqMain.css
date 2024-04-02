@@ -1,0 +1,41 @@
+.faq-shopping {
+  width: 100%;
+  height: 500px;
+  padding: 64px, 0px, 64px, 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.faq_head {
+  width: 780px;
+  height: 38px;
+  font-weight: 600;
+  line-height: 38px;
+  font-size: 34px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq-background,
+.img-top-back {
+  width: 100%;
+  height: 467px;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 480px) and (max-width:767px) {
+  .faq_head {
+    width:480px !important;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 767px) and (max-width:991px) {
+  .faq_head {
+    width: max-content !important;
+    margin: 0 auto;
+  }
+}
+

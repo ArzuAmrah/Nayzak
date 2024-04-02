@@ -1,0 +1,254 @@
+.category-side {
+   width: max-content;
+   height: max-content;
+   display: flex;
+   /* justify-content: center; */
+   align-items: center;
+   padding: 20px;
+   margin-left: 55px;
+}
+
+.all-category {
+   width: max-content;
+   height: max-content;
+}
+
+.category-side h4 {
+   font-size: 24px;
+}
+
+.category-head-title {
+   width: max-content;
+   height: max-content;
+   padding: 15px;
+   /* border: 1px solid brown; */
+   background-color: #F5F5F5;
+   color: black;
+   border-radius: 6px;
+   font-weight: 500;
+   margin-right: 50px;
+}
+
+.category-title {
+   margin-top: 10px;
+}
+
+.category-dropdown-all {
+   width: max-content;
+   display: flex;
+}
+
+.category-all {
+   width: max-content;
+   font-size: 18px;
+   font-weight: 500;
+   display: flex;
+   margin-left: 25px;
+   cursor: pointer;
+}
+
+.category-title {
+   width: max-content;
+   height: max-content;
+   padding: 5px;
+   margin-top: 10px;
+}
+
+.category-title:hover {
+   background-color: burlywood;
+   cursor: pointer;
+}
+
+.category-all-products {
+   font-size: 16px;
+   font-weight: 600;
+}
+
+.dropdown {
+   margin-left: 50px;
+   font-size: 16px;
+   font-weight: 600;
+   position: relative;
+}
+
+.dropdown:hover {
+   /* color: brown; */
+   cursor: pointer;
+}
+
+.angle:hover {
+   color: brown;
+   cursor: pointer;
+}
+
+.dropdown {
+   position: relative;
+}
+
+.drop {
+   list-style-type: none;
+   width: max-content;
+   position: absolute;
+   top: 30px;
+   left: 0;
+   visibility: hidden;
+   opacity: 0;
+   transition: 1s;
+}
+
+.drop-li {
+   width: 120px;
+   height: 40px;
+   background-color: white;
+   font-size: 16px;
+   color: black;
+   padding: 10px;
+}
+
+.drop-li:hover {
+   background-color: #F5F5F5;
+   color: black;
+   border: 1px solid white;
+}
+
+.dropdown:hover .drop {
+   visibility: visible;
+   opacity: 1;
+}
+@media screen and (min-width: 480px) and (max-width:767px) {
+   .category-side {
+      width: max-content;
+      height: max-content;
+      display: flex;
+      flex-direction: column;
+      /* justify-content: center; */
+      align-items: flex-start;
+      padding: 20px;
+      margin-left: 55px;
+   }
+
+   .dropdown {
+      margin-left: 10px;
+      margin-bottom: 15px;
+   }
+
+   .category-all-products {
+      margin: 20px 0px 15px 10px;
+   }
+
+   .drop {
+      list-style-type: none;
+      width: max-content;
+      position: absolute;
+      top: 30px;
+      left: 0px;
+      visibility: hidden;
+      opacity: 0;
+      transition: 1s;
+      z-index: 1;
+   }
+
+   .drop-li {
+      width: 120px;
+      height: 40px;
+      background-color: white;
+      font-size: 16px;
+      color: black;
+      padding: 10px;
+      border: 1px solid #F5F5F5;
+   }
+
+}
+
+@media screen and (min-width: 767px) and (max-width:991px) {
+
+   .category-side {
+      width: max-content;
+      height: max-content;
+      display: flex;
+      flex-direction: row;
+      /* justify-content: center; */
+      align-items: flex-start;
+      padding: 20px;
+      margin-left: 55px;
+   }
+
+   .dropdown {
+      margin-left: 30px;
+      margin-bottom: 15px;
+      margin-top: 20px;
+   }
+
+   .category-all-products {
+      margin: 20px 0px 15px 10px;
+   }
+
+   .drop {
+      list-style-type: none;
+      width: max-content;
+      position: absolute;
+      top: 30px;
+      left: 0px;
+      visibility: hidden;
+      opacity: 0;
+      transition: 1s;
+      z-index: 1;
+   }
+
+   .drop-li {
+      width: 120px;
+      height: 40px;
+      background-color: white;
+      font-size: 16px;
+      color: black;
+      padding: 10px;
+      border: 1px solid #F5F5F5;
+   }
+
+}
+@media screen and (min-width: 991px) and (max-width:1400px) {
+
+   .category-side {
+      width: max-content;
+      height: max-content;
+      display: flex;
+      flex-direction: row;
+      /* justify-content: center; */
+      align-items: flex-start;
+      padding: 20px;
+      margin-left: 55px;
+   }
+
+   .dropdown {
+      margin-left: 30px;
+      margin-bottom: 15px;
+      margin-top: 20px;
+   }
+
+   .category-all-products {
+      margin: 20px 0px 15px 10px;
+   }
+
+   .drop {
+      list-style-type: none;
+      width: max-content;
+      position: absolute;
+      top: 30px;
+      left: 0px;
+      visibility: hidden;
+      opacity: 0;
+      transition: 1s;
+      z-index: 1;
+   }
+
+   .drop-li {
+      width: 120px;
+      height: 40px;
+      background-color: white;
+      font-size: 16px;
+      color: black;
+      padding: 10px;
+      border: 1px solid #F5F5F5;
+   }
+
+}
